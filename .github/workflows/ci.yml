@@ -3,7 +3,7 @@ name: k6 Load Test
 on:
   push:
     branches:
-      - 'test-ci'
+      - 'main'
 
 jobs:
   run-test:
